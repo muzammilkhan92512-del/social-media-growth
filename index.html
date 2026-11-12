@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="<!-- figma:lang -->">
+  <head>
+    <!-- figma:head-start -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#05060D" />
+    <title><!-- figma:title --></title>
+    <!-- figma:head-end -->
+  </head>
+  <body>
+    <!-- figma:body-start -->
+    <form name="project-inquiry" netlify netlify-honeypot="bot-field" hidden>
+      <input name="bot-field" />
+      <input name="full-name" />
+      <input type="email" name="email" />
+      <select name="service">
+        <option>Service</option>
+      </select>
+      <select name="budget">
+        <option>Budget</option>
+      </select>
+      <textarea name="project-details"></textarea>
+    </form>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <!-- figma:body-end -->
+  </body>
+</html>
